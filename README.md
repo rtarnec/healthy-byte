@@ -29,6 +29,7 @@ Welcome to the HealthyByte demo project! This is a simple full-stack AI applicat
 ```bash
 git clone https://github.com/yourusername/healthybyte.git
 cd healthybyte/functions
+```
 
 2. **Install dependencies**
 
@@ -65,8 +66,3 @@ or open index.html directly in your browser for testing.
 
 
 
-
-
-Open https://console.cloud.google.com/marketplace/product/google/secretmanager.googleapis.com and click on Enable.
-
-When you deploy the Cloud Function for the first time, you’ll be prompted to enter the secret values (such as your API keys).
