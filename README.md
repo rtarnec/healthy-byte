@@ -33,12 +33,16 @@ cd healthybyte/functions
 
 2. **Install dependencies**
 
+```bash
 npm install
+```
 
 3. **Initialize Firebase (if not done)**
 
+```bash
 firebase login
 firebase init
+```
 
 Make sure to select Functions and connect to your Firebase project.
 
@@ -54,13 +58,17 @@ When you deploy the Cloud Function for the first time, you’ll be prompted to e
 
 6. **Deploy Cloud Functions**
 
+```bash
 firebase deploy --only functions
+```
 
 7. **Run the front-end**
 
 Serve your static files (e.g. with a simple HTTP server or Firebase Hosting):
 
+```bash
 firebase deploy --only hosting
+```
 
 or open index.html directly in your browser for testing.
 
