@@ -15,7 +15,7 @@ Welcome to the HealthyByte demo project! This is a simple full-stack AI applicat
 
 ## Prerequisites
 
-- Node.js (v16 or higher recommended)
+- Node.js (v22 or higher recommended)
 - Firebase CLI installed (`npm install -g firebase-tools`)
 - A Google Cloud project with Firebase enabled
 - Access to Genkit and Gemini LLM (ensure you have necessary API keys and permissions)
